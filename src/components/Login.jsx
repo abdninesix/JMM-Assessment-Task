@@ -4,8 +4,8 @@ import RightSection from './RightSection'
 import * as z from 'zod'
 
 const schema = z.object({
-    username: z.string().min(3, 'Username can only contain letters, numbers, and underscores.'),
-    password: z.string().min(8, 'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character.'),
+    username: z.string().min(3, 'Username must be at least 5 characters'),
+    password: z.string().min(8, 'Password must be at least 8 characters'),
 })
 
 const Login = () => {
