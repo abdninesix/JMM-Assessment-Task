@@ -30,11 +30,11 @@ const Login = () => {
 
 
     return (
-        <div className='h-screen flex p-4 overflow-hidden'>
+        <div className='h-screen flex overflow-hidden'>
             {/* Left section */}
             <section className='h-full w-full lg:w-1/2 flex flex-col p-4 justify-between'>
                 {/* Logo */}
-                <a href='/' className='text-'>
+                <a href='/' className='w-30 lg:w-auto'>
                     <img src='/logo2.svg' alt='logo' />
                 </a>
                 {/* Login form */}
@@ -72,7 +72,7 @@ const Login = () => {
                     </div>
                 </form>
                 {/* Footer */}
-                <footer className='flex justify-between text-sm text-gray-600 font-semibold'>
+                <footer className='flex flex-col-reverse md:flex-row items-center justify-between text-sm text-gray-600 font-semibold'>
                     <p>&copy; Hysabat Solutions {new Date().getFullYear()}</p>
                     <a href='mailto:sales@hysabat.com' className='flex gap-1'><HiOutlineMail className='text-xl' /> sales@hysabat.com</a>
                 </footer>
