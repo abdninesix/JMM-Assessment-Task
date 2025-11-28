@@ -30,9 +30,9 @@ const Login = () => {
 
 
     return (
-        <div className='h-screen flex p-4'>
+        <div className='h-screen flex p-4 overflow-hidden'>
             {/* Left section */}
-            <section className='h-full w-full lg:w-1/2 flex flex-col p-4 justify-between'>
+            <section className='h-full w-full lg:w-1/2 flex flex-col p-4 justify-between animate-slideInLeft'>
                 {/* Logo */}
                 <a href='/' className='text-'>
                     <img src='/logo2.svg' alt='logo' />
