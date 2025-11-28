@@ -8,7 +8,7 @@ const Login = () => {
             {/* Left section */}
             <section className='w-1/2 flex flex-col p-4 justify-between'>
                 {/* Logo */}
-                <a href='#' className='text-center'>
+                <a href='/' className='text-center'>
                     <img src='/logo2.svg' alt='logo' />
                 </a>
                 {/* Login form */}
