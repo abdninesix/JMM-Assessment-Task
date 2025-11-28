@@ -74,7 +74,7 @@ const Login = () => {
                 {/* Footer */}
                 <footer className='flex justify-between text-sm text-gray-600 font-semibold'>
                     <p>&copy; Hysabat Solutions {new Date().getFullYear()}</p>
-                    <p className='flex items-center gap-2'><HiOutlineMail className='text-xl' /> sales@hysabat.com</p>
+                    <a href='mailto:sales@hysabat.com' className='flex gap-1'><HiOutlineMail className='text-xl' /> sales@hysabat.com</a>
                 </footer>
             </section>
 
