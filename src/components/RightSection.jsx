@@ -2,7 +2,7 @@ import React from 'react'
 
 const RightSection = () => {
     return (
-        <section className='w-full lg:w-1/2 hidden lg:flex flex-col items-center p-30 justify-center bg-linear-to-br from-sky-400 to-blue-950 rounded-2xl'>
+        <section className='w-full lg:w-1/2 hidden lg:flex flex-col items-center p-24 justify-center bg-linear-to-br from-sky-400 to-blue-950 rounded-2xl'>
             {/* Cards */}
                 <img src='/content.png' alt='content' className='scale-110 animate-slide' />
             {/* Text */}
