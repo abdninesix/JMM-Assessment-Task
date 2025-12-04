@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { HiOutlineLockClosed, HiOutlineMail, HiOutlineUser } from 'react-icons/hi'
-import RightSection from './RightSection'
+import RightSection from '../components/RightSection'
 import * as z from 'zod'
 
 const schema = z.object({
